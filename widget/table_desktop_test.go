@@ -6,8 +6,8 @@ import (
 	"fmt"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/test"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/test"
 
 	"github.com/stretchr/testify/assert"
 )

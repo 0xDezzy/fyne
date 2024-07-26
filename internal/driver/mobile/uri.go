@@ -3,8 +3,8 @@
 package mobile
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/storage"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/storage"
 )
 
 func nativeURI(path string) fyne.URI {

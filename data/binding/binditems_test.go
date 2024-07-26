@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2/storage"
+	"github.com/0xDezzy/fyne/storage"
 )
 
 func TestBindFloat(t *testing.T) {

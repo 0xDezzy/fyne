@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/0xDezzy/fyne/internal/cache"
+	"github.com/0xDezzy/fyne/test"
+	"github.com/0xDezzy/fyne/theme"
+	"github.com/0xDezzy/fyne/widget"
 )
 
 func TestThemeOverride_AddChild(t *testing.T) {

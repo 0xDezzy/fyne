@@ -4,9 +4,9 @@ import (
 	"image/color"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/async"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/canvas"
+	"github.com/0xDezzy/fyne/internal/async"
 )
 
 func TestQueue(t *testing.T) {

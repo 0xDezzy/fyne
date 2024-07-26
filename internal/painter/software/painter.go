@@ -3,10 +3,10 @@ package software
 import (
 	"image"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/canvas"
+	"github.com/0xDezzy/fyne/internal/driver"
+	"github.com/0xDezzy/fyne/internal/scale"
 )
 
 // Painter is a simple software painter that can paint a canvas in memory.

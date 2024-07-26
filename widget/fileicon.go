@@ -1,12 +1,12 @@
 package widget
 
 import (
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/repository/mime"
-	"fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/theme"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/canvas"
+	"github.com/0xDezzy/fyne/internal/repository/mime"
+	"github.com/0xDezzy/fyne/internal/widget"
+	"github.com/0xDezzy/fyne/storage"
+	"github.com/0xDezzy/fyne/theme"
 )
 
 const (

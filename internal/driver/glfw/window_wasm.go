@@ -8,12 +8,12 @@ import (
 	"runtime"
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/driver/desktop"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter/gl"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/container"
+	"github.com/0xDezzy/fyne/driver/desktop"
+	"github.com/0xDezzy/fyne/internal/driver/common"
+	"github.com/0xDezzy/fyne/internal/painter/gl"
+	"github.com/0xDezzy/fyne/internal/scale"
 
 	"github.com/fyne-io/glfw-js"
 )

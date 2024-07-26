@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal"
-	"fyne.io/fyne/v2/storage"
-	"fyne.io/fyne/v2/theme"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/internal"
+	"github.com/0xDezzy/fyne/storage"
+	"github.com/0xDezzy/fyne/theme"
 
 	"github.com/stretchr/testify/assert"
 )

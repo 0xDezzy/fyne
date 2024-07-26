@@ -3,7 +3,7 @@ package storage
 import (
 	"io"
 
-	"fyne.io/fyne/v2"
+	"github.com/0xDezzy/fyne"
 )
 
 // LoadResourceFromURI creates a new StaticResource in memory using the contents of the specified URI.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"fyne.io/fyne/v2"
+	"github.com/0xDezzy/fyne"
 )
 
 // repositoryTable stores the mapping of schemes to Repository implementations.

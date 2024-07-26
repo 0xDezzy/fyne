@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/internal/driver/glfw"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/widget"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/container"
+	"github.com/0xDezzy/fyne/internal/driver/glfw"
+	"github.com/0xDezzy/fyne/test"
+	"github.com/0xDezzy/fyne/widget"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

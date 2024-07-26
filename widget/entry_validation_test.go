@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"fyne.io/fyne/v2/data/validation"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/widget"
+	"github.com/0xDezzy/fyne/data/validation"
+	"github.com/0xDezzy/fyne/test"
+	"github.com/0xDezzy/fyne/widget"
 
 	"github.com/stretchr/testify/assert"
 )

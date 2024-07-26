@@ -7,11 +7,11 @@ import (
 	"image/draw"
 	"math"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/internal/cache"
-	paint "fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/theme"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/canvas"
+	"github.com/0xDezzy/fyne/internal/cache"
+	paint "github.com/0xDezzy/fyne/internal/painter"
+	"github.com/0xDezzy/fyne/theme"
 )
 
 var noTexture = Texture(cache.NoTexture)

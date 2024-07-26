@@ -3,8 +3,8 @@ package theme_test
 import (
 	"net/url"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/theme"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/theme"
 )
 
 type themedApp struct {

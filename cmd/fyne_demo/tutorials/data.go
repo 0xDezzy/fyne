@@ -1,7 +1,7 @@
 package tutorials
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/0xDezzy/fyne"
 )
 
 // Tutorial defines the data structure for a tutorial

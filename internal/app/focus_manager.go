@@ -3,8 +3,8 @@ package app
 import (
 	"sync"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/driver"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/internal/driver"
 )
 
 // FocusManager represents a standard manager of input focus for a canvas

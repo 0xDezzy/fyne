@@ -6,12 +6,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/cache"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/scale"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/internal/app"
+	"github.com/0xDezzy/fyne/internal/cache"
+	"github.com/0xDezzy/fyne/internal/driver/common"
+	"github.com/0xDezzy/fyne/internal/painter"
+	"github.com/0xDezzy/fyne/internal/scale"
 )
 
 type funcData struct {

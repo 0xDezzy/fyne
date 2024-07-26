@@ -5,12 +5,12 @@ import (
 	"path/filepath"
 	"testing"
 
-	"fyne.io/fyne/v2"
-	internalapp "fyne.io/fyne/v2/internal/app"
-	"fyne.io/fyne/v2/internal/build"
-	internalTest "fyne.io/fyne/v2/internal/test"
-	"fyne.io/fyne/v2/test"
-	"fyne.io/fyne/v2/theme"
+	"github.com/0xDezzy/fyne"
+	internalapp "github.com/0xDezzy/fyne/internal/app"
+	"github.com/0xDezzy/fyne/internal/build"
+	internalTest "github.com/0xDezzy/fyne/internal/test"
+	"github.com/0xDezzy/fyne/test"
+	"github.com/0xDezzy/fyne/theme"
 
 	"github.com/stretchr/testify/assert"
 )

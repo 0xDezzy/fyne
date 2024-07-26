@@ -3,7 +3,7 @@
 package app
 
 import (
-	"fyne.io/fyne/v2"
+	"github.com/0xDezzy/fyne"
 )
 
 // SystemTheme contains the system’s theme variant.

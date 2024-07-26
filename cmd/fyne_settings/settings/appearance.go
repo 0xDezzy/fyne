@@ -7,16 +7,16 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/app"
-	"fyne.io/fyne/v2/canvas"
-	"fyne.io/fyne/v2/container"
-	internalapp "fyne.io/fyne/v2/internal/app"
-	internaltheme "fyne.io/fyne/v2/internal/theme"
-	intWidget "fyne.io/fyne/v2/internal/widget"
-	"fyne.io/fyne/v2/layout"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/app"
+	"github.com/0xDezzy/fyne/canvas"
+	"github.com/0xDezzy/fyne/container"
+	internalapp "github.com/0xDezzy/fyne/internal/app"
+	internaltheme "github.com/0xDezzy/fyne/internal/theme"
+	intWidget "github.com/0xDezzy/fyne/internal/widget"
+	"github.com/0xDezzy/fyne/layout"
+	"github.com/0xDezzy/fyne/theme"
+	"github.com/0xDezzy/fyne/widget"
 )
 
 const (

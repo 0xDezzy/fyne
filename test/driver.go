@@ -5,12 +5,12 @@ import (
 	"sync"
 	"time"
 
-	"fyne.io/fyne/v2"
-	intdriver "fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/painter"
-	"fyne.io/fyne/v2/internal/painter/software"
-	intRepo "fyne.io/fyne/v2/internal/repository"
-	"fyne.io/fyne/v2/storage/repository"
+	"github.com/0xDezzy/fyne"
+	intdriver "github.com/0xDezzy/fyne/internal/driver"
+	"github.com/0xDezzy/fyne/internal/painter"
+	"github.com/0xDezzy/fyne/internal/painter/software"
+	intRepo "github.com/0xDezzy/fyne/internal/repository"
+	"github.com/0xDezzy/fyne/storage/repository"
 )
 
 // SoftwarePainter describes a simple type that can render canvases

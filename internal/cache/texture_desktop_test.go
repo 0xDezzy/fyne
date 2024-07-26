@@ -6,7 +6,7 @@ import (
 	"sync"
 	"testing"
 
-	"fyne.io/fyne/v2/internal/cache"
+	"github.com/0xDezzy/fyne/internal/cache"
 )
 
 // go test -race

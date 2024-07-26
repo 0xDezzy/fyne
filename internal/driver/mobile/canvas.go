@@ -6,14 +6,14 @@ import (
 	"math"
 	"time"
 
-	"fyne.io/fyne/v2"
-	"fyne.io/fyne/v2/container"
-	"fyne.io/fyne/v2/driver/mobile"
-	"fyne.io/fyne/v2/internal/app"
-	intdriver "fyne.io/fyne/v2/internal/driver"
-	"fyne.io/fyne/v2/internal/driver/common"
-	"fyne.io/fyne/v2/theme"
-	"fyne.io/fyne/v2/widget"
+	"github.com/0xDezzy/fyne"
+	"github.com/0xDezzy/fyne/container"
+	"github.com/0xDezzy/fyne/driver/mobile"
+	"github.com/0xDezzy/fyne/internal/app"
+	intdriver "github.com/0xDezzy/fyne/internal/driver"
+	"github.com/0xDezzy/fyne/internal/driver/common"
+	"github.com/0xDezzy/fyne/theme"
+	"github.com/0xDezzy/fyne/widget"
 )
 
 var _ fyne.Canvas = (*canvas)(nil)

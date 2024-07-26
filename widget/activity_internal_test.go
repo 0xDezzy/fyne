@@ -3,7 +3,7 @@ package widget
 import (
 	"testing"
 
-	"fyne.io/fyne/v2/test"
+	"github.com/0xDezzy/fyne/test"
 )
 
 func TestActivity_Animation(t *testing.T) {

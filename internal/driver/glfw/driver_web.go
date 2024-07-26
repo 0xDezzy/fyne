@@ -2,7 +2,7 @@
 
 package glfw
 
-import "fyne.io/fyne/v2"
+import "github.com/0xDezzy/fyne"
 
 func (d *gLDriver) SetSystemTrayMenu(m *fyne.Menu) {
 	// no-op for mobile apps using this driver
