@@ -1,5 +1,7 @@
 package fyne
 
+import "github.com/0xDezzy/fyne/menu"
+
 // Window describes a user interface window. Depending on the platform an app
 // may have many windows or just the one.
 type Window interface {
@@ -55,11 +57,11 @@ type Window interface {
 	SetMaster()
 
 	// MainMenu gets the content of the window's top level menu.
-	MainMenu() *MainMenu
+	MainMenu() *menu.MainMenu
 
 	// SetMainMenu adds a top level menu to this window.
 	// The way this is rendered will depend on the loaded driver.
-	SetMainMenu(*MainMenu)
+	SetMainMenu(*menu.MainMenu)
 
 	// SetOnClosed sets a function that runs when the window is closed.
 	SetOnClosed(func())
