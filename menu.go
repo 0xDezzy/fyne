@@ -1,5 +1,7 @@
 package fyne
 
+import "image/color"
+
 type systemTrayDriver interface {
 	Driver
 	SetSystemTrayMenu(*Menu)
@@ -9,13 +11,27 @@ type systemTrayDriver interface {
 // Menu stores the information required for a standard menu.
 // A menu can pop down from a MainMenu or could be a pop out menu.
 type Menu struct {
-	Label string
-	Items []*MenuItem
+	Label           string
+	Items           []*MenuItem
+	BackgroundColor color.Color
 }
 
 // NewMenu creates a new menu given the specified label (to show in a MainMenu) and list of items to display.
 func NewMenu(label string, items ...*MenuItem) *Menu {
 	return &Menu{Label: label, Items: items}
+}
+
+// SetBackgroundColor sets the background color for the menu.
+func (m *Menu) SetBackgroundColor(color color.Color) {
+	m.BackgroundColor = color
+	m.applyBackgroundColor()
+}
+
+// applyBackgroundColor applies the background color to all menu items.
+func (m *Menu) applyBackgroundColor() {
+	for _, item := range m.Items {
+		item.SetBackgroundColor(m.BackgroundColor)
+	}
 }
 
 // Refresh will instruct this menu to update its display.
@@ -56,7 +72,8 @@ type MenuItem struct {
 	// Since: 2.2
 	Icon Resource
 	// Since: 2.2
-	Shortcut Shortcut
+	Shortcut        Shortcut
+	BackgroundColor color.Color
 }
 
 // NewMenuItem creates a new menu item from the passed label and action parameters.
@@ -67,6 +84,12 @@ func NewMenuItem(label string, action func()) *MenuItem {
 // NewMenuItemSeparator creates a menu item that is to be used as a separator.
 func NewMenuItemSeparator() *MenuItem {
 	return &MenuItem{IsSeparator: true, Action: func() {}}
+}
+
+// SetBackgroundColor sets the background color for the menu item.
+func (m *MenuItem) SetBackgroundColor(color color.Color) {
+	m.BackgroundColor = color
+	// Add code to update the visual representation of the MenuItem with the new background color
 }
 
 // MainMenu defines the data required to show a menu bar (desktop) or other appropriate top level menu.
