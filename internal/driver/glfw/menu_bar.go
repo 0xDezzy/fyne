@@ -158,7 +158,7 @@ func (r *menuBarRenderer) MinSize() fyne.Size {
 
 func (r *menuBarRenderer) Refresh() {
 	r.Layout(r.b.Size())
-	r.background.FillColor = theme.Color(theme.ColorNameBackground)
+	r.background.FillColor = theme.Color(theme.ColorNameMenuBackground)
 	r.background.Refresh()
 	r.ShadowingRenderer.RefreshShadow()
 	canvas.Refresh(r.b)
